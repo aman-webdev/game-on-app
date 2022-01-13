@@ -187,6 +187,10 @@ const Hero = styled(motion.div)`
   h1 {
     font-size: 3rem;
     text-transform: uppercase;
+    @media (max-width: 576px) {
+      font-size: 2rem;
+      text-align: center;
+    }
   }
   svg {
     width: 40px;
@@ -216,6 +220,10 @@ const Top = styled(motion.div)`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 576px) {
+    flex-direction: column;
+    gap: 1rem;
+  }
 `;
 const Platforms = styled(motion.div)`
   display: flex;
