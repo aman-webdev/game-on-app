@@ -13,6 +13,7 @@ body{
     font-size:1rem;
     padding:1rem 0rem;
 font-family: "Roboto";
+overflow-x: hidden;
 
 }
 

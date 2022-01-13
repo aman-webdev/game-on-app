@@ -19,7 +19,12 @@ const Genre = () => {
 const StyledGenre = styled(motion.div)`
   padding: 3rem 0rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  align-items: center;
   grid-gap: 1.5rem;
+  @media (max-width: 576px) {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
 `;
 export default Genre;

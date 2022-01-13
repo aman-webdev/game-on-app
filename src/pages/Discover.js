@@ -97,5 +97,10 @@ const GameTypeInfo = styled(motion.div)`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 576px) {
+    h2 {
+      font-size: 1.125rem;
+    }
+  }
 `;
 export default Discover;

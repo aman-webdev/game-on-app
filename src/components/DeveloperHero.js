@@ -45,11 +45,18 @@ const StyledDeveloper = styled(motion.div)`
   overflow-x: hidden;
   box-shadow: 0px 12px 20px 0px rgba(0, 0, 0, 0.1);
   @media (max-width: 768px) {
-    padding: 8rem 4rem;
+   padding:8rem 2rem;
     .title {
       font-size: 1.5rem;
     }
   }
+  @media (max-width: 576px) {
+        .title {
+          padding:2rem 0;
+          font-size: 1rem;
+        }
+      }
+    }
   div {
     transition: transform 0.4s ease-in-out;
     position: absolute;
@@ -88,9 +95,9 @@ const StyledDeveloper = styled(motion.div)`
         color: white;
       }
       @media (max-width: 768px) {
-        width: 70%;
+        width: 90%;
       }
-    }
+     
   }
 `;
 export default DeveloperHero;

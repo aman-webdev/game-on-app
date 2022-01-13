@@ -1,7 +1,7 @@
 import { currentYearDate, nextYearDate, prevYearDate } from "./gameDates";
 
 // BASE URL
-const api_key = process.env.REACT_APP_API_KEY;
+const api_key = "999071c51e4245579e552a3cbc612812";
 const base_url = `https://api.rawg.io/api/`;
 
 export const upcomingGames_url = (number) =>

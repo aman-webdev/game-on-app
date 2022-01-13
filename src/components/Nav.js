@@ -64,25 +64,6 @@ const Nav = () => {
             <path d="M6 5l6.005 .429m7.138 6.573l-.143 .998h-13" />
             <path d="M15 6h6m-3 -3v6" />
           </svg>
-          <User>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="icon icon-tabler icon-tabler-user"
-              width="72"
-              height="72"
-              viewBox="0 0 24 24"
-              strokeWidth="1.5"
-              stroke="#2c3e50"
-              fill="none"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-              <circle cx="12" cy="7" r="4" />
-              <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
-            </svg>
-            <p>Thomas 123</p>
-          </User>
         </Profile>
       </StyledNav>
       <Form onSubmit={formSubmitHandler}>
@@ -152,17 +133,6 @@ const Profile = styled(motion.div)`
   }
 `;
 
-const User = styled(motion.div)`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  svg {
-    margin-left: 1rem;
-    width: 35px;
-  }
-`;
-export default Nav;
-
 const Header = styled(motion.div)`
   padding: 0 5rem;
   height: 20vh;
@@ -192,3 +162,5 @@ const Form = styled(motion.form)`
     }
   }
 `;
+
+export default Nav;
