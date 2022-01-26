@@ -1,1 +1,1 @@
-URL : game-on-app.netlify.app
+URL : https://game-on-app.netlify.app/
